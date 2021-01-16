@@ -1,0 +1,72 @@
+.header {
+  text-align: center;
+}
+
+.text-box {
+  height: 25px;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid gray;
+  font-family: "Roboto";
+}
+
+.button {
+  border-radius: 2px;
+  width: 80xpx;
+  background-color: #3cb371;
+  border: none;
+  height: 35px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.flex-box {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.invi-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  height: 30px;
+}
+
+.table {
+  width: 50%;
+}
+
+.table-flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.table-row {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.table-row-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.table-col {
+  height: 30px;
+  font-weight: 700;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+}
